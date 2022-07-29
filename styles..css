@@ -1,11 +1,25 @@
-div{height: 400px;
-color: red;}
+div{height: 200px;
+
+color:red;
+display:flex;
+align-items: center;
+font-size: 60px;
+align-items: center;
+text-align: right;
+}
 .big-img{
     
-    background:url(./big.jpg) ;}
-.small-img{
+    background:url(./big.jpg) ;
+background-repeat: no-repeat;
 
-    background:url(./small.jpg) ;}
+background-position: center;}
+.small-img{
+ background:url(./small.jpg) ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
 .folder-img{
 
-    background:url(./folder.jpg) ;}
+    background:url(./folder.jpg) ;
+    background-repeat: no-repeat;
+}
