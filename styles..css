@@ -1,25 +1,8 @@
-div{height: 200px;
-
-color:red;
-display:flex;
-align-items: center;
-font-size: 60px;
-align-items: center;
-text-align: right;
-}
-.big-img{
-    
-    background:url(./big.jpg) ;
-background-repeat: no-repeat;
-
-background-position: center;}
-.small-img{
- background:url(./small.jpg) ;
-background-repeat: no-repeat;
-background-attachment: fixed;
-}
-.folder-img{
-
-    background:url(./folder.jpg) ;
-    background-repeat: no-repeat;
-}
+div{ height: 150px;
+width: 150px;
+display: flex;
+margin: 5px;}
+.one{background: linear-gradient(red,#008000);}
+.two{background: linear-gradient(to top , red,green);}
+.three{background: linear-gradient(red,green);}
+.four{background: linear-gradient(315deg ,red,green ,greenyellow,hotpink);}
