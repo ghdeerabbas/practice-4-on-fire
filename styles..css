@@ -1,11 +1,11 @@
-div{background: blue;
-color: white;}
-.none{display:none ;}
-.opacitiy-1 {
-    opacity:1 ;}
-.opacitiy-5 {
-     opacity: 0.75;}
-.opacitiy-0 {
-    opacity: 0;}
-.visiblity {
-    visibility: hidden;}
+div{height: 400px;
+color: red;}
+.big-img{
+    
+    background:url(./big.jpg) ;}
+.small-img{
+
+    background:url(./small.jpg) ;}
+.folder-img{
+
+    background:url(./folder.jpg) ;}
