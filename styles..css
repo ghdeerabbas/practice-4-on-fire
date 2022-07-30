@@ -1,13 +1,25 @@
 div{
-    padding:10px ;
-    border: 5px solid red;
+margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 200px;
     
 }
-img{
-    float:right;
-    margin: 10px;
+.one{
+    float: left;
+    color: blue;
+    background: red;
+    width:33.33%;
 }
-p{
-    clear:left;
-    margin: 20px;
+.two{
+    float: right;
+    color: blue;
+    background: yellow;
+    width: 33.33%;}
+
+.three{
+    float: left;
+    color: blue;
+    background:brown;
+    width: 33.33%;
 }
