@@ -1,29 +1,24 @@
-div{
-margin: 0;
-    padding: 10px;
-    box-sizing: border-box;
-    height: 200px;
-    
-}
-.one{
-    float: left;
-    color: blue;
-    background: red;
-    width:33.33%;
-}
-.two{
-    float: right;
-    color: blue;
-    background: yellow;
-    width: 33.33%;}
 
-.three{
-    float: left;
-    color: blue;
-    background:brown;
-    width: 33.33%;
-}
-.BU{
-    background: red;
-    color: black;
-}
+body
+    { 
+        background-color: yellowgreen;}
+    .banner {
+        background: blue;
+        
+
+    }
+    h1{
+        color:white;
+         text-align: center;
+         text-decoration: underline;
+         text-transform: capitalize;
+         
+    }
+    @media screen and (min-width:576px){body
+        {background: red
+        ;}
+        .banner{background :grey;}
+        h1{color:black;
+        font-size: 60px;}
+        
+    }
