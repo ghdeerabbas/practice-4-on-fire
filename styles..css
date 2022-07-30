@@ -1,8 +1,13 @@
-div{ height: 150px;
-width: 150px;
-display: flex;
-margin: 5px;}
-.one{background: linear-gradient(red,#008000);}
-.two{background: linear-gradient(to top , red,green);}
-.three{background: linear-gradient(red,green);}
-.four{background: linear-gradient(315deg ,red,green ,greenyellow,hotpink);}
+div{
+    padding:10px ;
+    border: 5px solid red;
+    
+}
+img{
+    float:right;
+    margin: 10px;
+}
+p{
+    clear:left;
+    margin: 20px;
+}
