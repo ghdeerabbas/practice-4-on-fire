@@ -1,6 +1,6 @@
-p::first-line{
-    font-weight: bold;
+a:link{
+    color: aqua;
 }
-p::first-letter{
-    font-size: 3rem;
+a:hover{
+    color: blue;
 }
