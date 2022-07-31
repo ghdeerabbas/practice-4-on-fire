@@ -1,6 +1,6 @@
-
-header{
-    color: brown;
+p::first-line{
+    font-weight: bold;
 }
-div > h1
-{ color: greenyellow;} 
+p::first-letter{
+    font-size: 3rem;
+}
